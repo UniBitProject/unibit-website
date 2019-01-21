@@ -599,13 +599,24 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-transform: capitalize;
 }
 
+
+#getstarted .section-title2 {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 992px) {
+  .section-title2 {
+    margin-bottom: 40px;
+  }
+}
+
 #get-started .section-title2 h2 {
   font-family: "Open Sans", sans-serif;
     color: #fff;
   font-size: 50px;
   font-weight: 300;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   text-transform: capitalize;
 }
 
@@ -871,16 +882,33 @@ body.mobile-nav-active #mobile-nav-toggle i {
 /* Video Section
 --------------------------------*/
 #video {
-  background: url(../img/video-bg.jpg) center center;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+
+#video .video-content {
+  padding-bottom: 30px;
+}
+
+#video .video-content h2 {
+  color: #505050;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+
+#video .overlay {
+  background: rgba(0, 0, 0, 0.85);
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
   overflow: hidden;
-}
 
-#video .overlay {
-  background: rgba(0, 0, 0, 0.85);
-  height: 100%;
 }
 
 #video .overlay .play-btn {
