@@ -747,12 +747,11 @@ body.mobile-nav-active #mobile-nav-toggle i {
   padding: 11px 36px;
   border-radius: 0px;
   transition: 0.5s;
-  margin-bottom: 30px;
   border: 1px solid #62ddff;
   background: #62ddff;
   color: #fff;
   text-decoration: none;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-right: 20px;
 }
 
@@ -792,7 +791,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us2 .about-content2 {
-  padding-top: 10px;
+  padding-top: 80px;
 
 }
 
@@ -803,7 +802,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   font-size: 32px;
   font-weight: 100;
   letter-spacing: 2px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   text-transform: capitalize;
 }
 
@@ -836,7 +835,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
   background: #62ddff;
   color: #fff;
   text-decoration: none;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-right: 20px;
 }
 
