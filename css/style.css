@@ -705,6 +705,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #about-us img {
   max-width: 100%;
+
 }
 
 #about-us .about-content {
@@ -787,6 +788,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #about-us2 img {
   max-width: 100%;
+  margin-bottom: 30px;
 }
 
 #about-us2 .about-content2 {
@@ -830,7 +832,6 @@ body.mobile-nav-active #mobile-nav-toggle i {
   padding: 11px 36px;
   border-radius: 0px;
   transition: 0.5s;
-  margin-bottom: 30px;
   border: 1px solid #62ddff;
   background: #62ddff;
   color: #fff;
