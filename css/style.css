@@ -708,7 +708,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us .about-content {
-  padding-top: 30px;
+  padding-top: 10px;
 
 }
 
@@ -736,6 +736,49 @@ body.mobile-nav-active #mobile-nav-toggle i {
   padding-right: 0px;
 }
 
+
+#about-us .btn-get-started {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 11px 36px;
+  border-radius: 0px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  border: 1px solid #62ddff;
+  background: #62ddff;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 80px;
+  margin-right: 20px;
+}
+
+#about-us .btn-get-started:hover {
+  background: #62ddff;
+  color: #fff;
+}
+
+#about-us .btns a {
+  color: #555;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 4px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+@media (max-width: 575px) {
+  #about-us .btns a {
+    margin: 4px 8px;
+  }
+}
+
+#about-us .btns a:hover {
+  color: #71c55d;
+}
 /* About Us Section
 --------------------------------*/
 #about-us2 {
@@ -747,8 +790,10 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us2 .about-content2 {
-  padding-top: 30px;
+  padding-top: 10px;
+
 }
+
 
 #about-us2 .about-content2 h2 {
   color: #505050;
@@ -775,6 +820,49 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 
+
+#about-us2 .btn-get-started {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 11px 36px;
+  border-radius: 0px;
+  transition: 0.5s;
+  margin-bottom: 30px;
+  border: 1px solid #62ddff;
+  background: #62ddff;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 80px;
+  margin-right: 20px;
+}
+
+#about-us2 .btn-get-started:hover {
+  background: #62ddff;
+  color: #fff;
+}
+
+#about-us2 .btns a {
+  color: #555;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 4px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+@media (max-width: 575px) {
+  #about-us2 .btns a {
+    margin: 4px 8px;
+  }
+}
+
+#about-us2 .btns a:hover {
+  color: #71c55d;
+}
 /* Features Section
 --------------------------------*/
 
@@ -1536,7 +1624,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .footer .copyrights {
   background: #e6f3ff;
-  margin-top: 50px;
+  margin-top: 0px;
   text-align: center;
   padding: 25px;
 }
