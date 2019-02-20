@@ -395,7 +395,7 @@ span {
   font-weight: 400;
   font-size: 14px;
   outline: none;
-  letter-spacing: 2;
+  letter-spacing: 1;
   transition: 0.3s;
 }
 
@@ -496,7 +496,7 @@ span {
   width: 100%;
   display: block;
   outline: none;
-  letter-spacing: 2;
+  letter-spacing: 1;
 }
 
 #mobile-nav ul li a:hover {
@@ -995,7 +995,7 @@ height: 100%;
 }
 
 #features {
-  background: #ddefff;
+  background: #fff;
   display: inline-block;
   height: 100%;
   width: 100%;
@@ -1007,7 +1007,7 @@ height: 100%;
 }
 
 #features .feature-block {
-  background: #ddefff  none repeat scroll 0 0;
+  background: #fff  none repeat scroll 0 0;
   padding: 30px 20px;
   margin-bottom: 30px;
   transition: all 0.5s ease-in-out 0s;
@@ -1432,15 +1432,17 @@ height: 100%;
 @media (max-width: 991px) {
   #blog .block-blog {
     margin-bottom: 30px;
+
   }
 }
 
 #blog .block-blog img {
   width: 100%;
+
 }
 
 #blog .block-blog .content-blog {
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.05), 0 0 4px 0 rgba(0, 0, 0, 0.05);
   display: inline-block;
   min-height: 125px;
   padding: 20px 10px;
@@ -2062,6 +2064,7 @@ pre {
     font-weight: 100;
     letter-spacing: 2px;
     margin-bottom: 20px;
+      margin-top: 25px;
     text-transform: capitalize;
   }
 
